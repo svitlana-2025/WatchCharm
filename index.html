@@ -3,29 +3,87 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Watch Charm</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <p>watchcharm</p>
-      <ul>
-        <li>Home</li>
-        <li>About Us</li>
-        <li>Catalog</li>
-        <li>Sale</li>
-        <li>Reviews</li>
-        <li>Contact Us</li>
-      </ul>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+    <!-- Section header -->
+    <header class="header-body">
+      <div class="container">
+        <nav class="nav-body flex-container">
+          <a class="nav-link" href="#">watchcharm</a>
+          <button
+            type="button"
+            class="mobile-menu-open-btn"
+            aria-label="Open mobile menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="mobile-menu-open-btn-icon" width="34" height="34">
+              <use href="./images/icons.svg#icon-burger"></use>
+            </svg>
+          </button>
+          <!-- <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Catalog</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Sale</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Reviews</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Contact Us</a></li>
+          </ul> -->
+        </nav>
+        <!-- <ul class="social-list">
+          <li class="social-item">
+            <a
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              class="link"
+            >
+              <svg class="icon" width="" height="">
+                <use href=""></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              class="link"
+            >
+              <svg class="icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item">
+            <a
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              class="link"
+            >
+              <svg class="icon" width="" height="">
+                <use href=""></use>
+              </svg>
+            </a>
+          </li>
+        </ul> -->
+      </div>
     </header>
-    <div>
-      <button class="" type="button" aria-label="Close mobile menu">
-        <svg class="" width="" height="">
-          <use href=""></use>
+    <!-- <div class="mobile-menu is-ope" id="mobile-menu">
+      <button
+        class="mobile-menu-close-btn close-button"
+        type="button"
+        aria-label="Close mobile menu"
+      >
+        <svg class="mobile-menu-close-icon close-icon" width="34" height="34">
+          <use href="./images/icons.svg#icon-x"></use>
         </svg>
       </button>
       <ul>
@@ -36,35 +94,76 @@
         <li><a href="">Reviews</a></li>
         <li><a href="">Contact Us</a></li>
       </ul>
-    </div>
+      <ul>
+        <li>
+          <a
+            href="https://www.facebook.com/goITclub/"
+            target="_blank"
+            class="link"
+          >
+            <svg class="icon" width="" height="">
+              <use href=""></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/goitclub/"
+            target="_blank"
+            class="link"
+          >
+            <svg class="icon" width="" height="">
+              <use href=""></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/c/GoIT" target="_blank" class="link">
+            <svg class="icon" width="" height="">
+              <use href=""></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div> -->
     <main>
       <section class="hero">
-        <h1>Welcome to our <span>collection</span> of premium watches</h1>
-        <p>
+        <div class="container">
+        <h1 class="hero-title">Welcome to our <span class="hero-span">collection</span> of premium watches</h1>
+        <p class="hero-text">
           Our watches are not just timepieces, but also an expression of your
           personality and lifestyle. From classic designs to modern ones, we
           have a watch to suit every taste and occasion.
         </p>
-        <img src="" alt="" />
-        <p>Scroll down</p>
+        <div class="container-scroll">
+        <img class="hero-img" src="" alt="" width="108" height="44" />
+        <a class="link-scroll" href="">Scroll down</a>
+        </div>
+        <img class="hero-img" src="" alt="" width="" height="" />
       </section>
-      <section class="About Us">
-        <h2>About Us</h2>
-        <p>
+      <section class="about-us">
+        <div class="container">
+          <div class="container-about-us">
+        <h2 class="title-about">About Us</h2>
+        <p class="text-about">
           Welcome to our premium watch collection, where luxury and style meet
           functionality and precision. Our selection of timepieces embodies the
           very best in Swiss craftsmanship and engineering, ensuring that you'll
           always have a reliable and stylish accessory on your wrist.
         </p>
-        <p>
+        <br />
+        <p class="text-about">
           At our premium watch collection, we believe that a watch is more than
           just a timekeeping device - it's a statement piece that reflects your
           personality and style. So why settle for anything less than the best?
         </p>
-        <button>View catalog</button>
-        <img src="" alt="" />
+        <button type="button" class="about-btn">View catalog</button>
+        </div>
+        <img class="about-img" src="" alt="" />
+        </div>
       </section>
-      <section class="Catalog">
+      <!-- <section class="Catalog">
+        <div class="container">
         <h2>Catalog</h2>
         <ul>
           <li>
@@ -98,16 +197,18 @@
             <p>€395</p>
           </li>
         </ul>
-      </section>
-      <section class="Advertisement">
+        </div>
+      </section> -->
+      <!-- <section class="Advertisement">
+        <div class="container">
         <h2 class=""></h2>
         <button>Contact Us</button>
         <p>
           Choose your story, making every moment unique. Time is your style, and
           we reveal it.
         </p>
-      </section>
-      <section class="Sale">
+      </section> -->
+      <!-- <section class="Sale">
         <h2>Sale</h2>
         <img src="" alt="" />
         <img src="" alt="" />
@@ -125,8 +226,10 @@
           material and has a precise AMOLED touch screen. The sensitive touch
           screen is complemented by buttons that can be used in any conditions.
         </p>
-      </section>
-      <section class="Reviews">
+        </div>
+      </section> -->
+      <!-- <section class="Reviews">
+        <div class="container">
         <h2>Reviews</h2>
         <ul>
           <li>
@@ -157,8 +260,10 @@
             </p>
           </li>
         </ul>
-      </section>
-      <section class="Contact Us">
+        </div>
+      </section> -->
+      <!-- <section class="Contact Us">
+        <div class="container">
         <h2>Contact Us</h2>
         <form action="">
           <p>
@@ -176,9 +281,11 @@
           <button type="button">Send</button>
         </form>
         <img src="" alt="" />
-      </section>
+        </div>
+      </section> -->
     </main>
-    <footer>
+    <!-- <footer>
+      <div class="container">
       <a href="">watchcharm</a>
       <ul>
         <li>
@@ -230,6 +337,7 @@
       <p>©2023 The Watch Spot. All rights reserved.</p>
       <a href="">Terms of Service</a>
       <a href="">Privacy Policy</a>
-    </footer>
+      </div>
+    </footer> -->
   </body>
 </html>
