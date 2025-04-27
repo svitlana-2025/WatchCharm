@@ -1,35 +1,3 @@
-@font-face {
-    font-family: Gilroy;
-    src: local("Gilroy Regular"), local("Gilroy-Regular"), url(/devghosts-watches-teamproject/assets/Gilroy-Regular-8e78c2c8.woff2) format("woff2"), url(/devghosts-watches-teamproject/assets/Gilroy-Regular-65aaefc7.woff) format("woff");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: Gilroy;
-    src: local("Gilroy Bold"), local("Gilroy-Bold"), url(/devghosts-watches-teamproject/assets/Gilroy-Bold-8da03ac3.woff2) format("woff2"), url(/devghosts-watches-teamproject/assets/Gilroy-Bold-d27594f8.woff) format("woff");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: Gilroy;
-    src: local("Gilroy Semibold"), local("Gilroy-Semibold"), url(/devghosts-watches-teamproject/assets/Gilroy-Semibold-a009b007.woff2) format("woff2"), url(/devghosts-watches-teamproject/assets/Gilroy-Semibold-75bd5a29.woff) format("woff");
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap
-}
-
-@font-face {
-    font-family: Gilroy;
-    src: local("Gilroy Medium"), local("Gilroy-Medium"), url(/devghosts-watches-teamproject/assets/Gilroy-Medium-ee68ee26.woff2) format("woff2"), url(/devghosts-watches-teamproject/assets/Gilroy-Medium-119e6666.woff) format("woff");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap
-}
-
 html,
 body,
 div,
